@@ -1,0 +1,16 @@
+{
+  "name": "belajar-es6(8)denganWebPack",
+  "version": "0.0.1",
+  "scripts": {
+    "babel": "babel --presets env /src/index.js -o /dist/bundle.js",
+    "webpack": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "mathjs": "^3.16.4",
+    "webpack": "^3.6.0"
+  }
+}
